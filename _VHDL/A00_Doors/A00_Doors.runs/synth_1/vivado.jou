@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Aug  5 14:06:14 2020
+# Process ID: 11916
+# Current directory: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.runs/synth_1
+# Command line: vivado.exe -log Top_Modul.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Modul.tcl
+# Log file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.runs/synth_1/Top_Modul.vds
+# Journal file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Modul.tcl -notrace

@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Aug  5 12:19:07 2020
+# Process ID: 2592
+# Current directory: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent600 C:\Users\AEY\Google Drive\01_Github\_Software\_VHDL\A00_Doors\A00_Doors.xpr
+# Log file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/vivado.log
+# Journal file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.xpr}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new
+file mkdir {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new}
+close [ open {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new/top_modul_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/sim_1/new/top_modul_tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source Top_Modul_tb.tcl
+restart
+run all
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new
+file mkdir C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1
+file mkdir {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new}
+close [ open {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new/top_modul_cons.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.srcs/constrs_1/new/top_modul_cons.xdc}}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.runs/impl_1/Top_Modul.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.runs/impl_1/Top_Modul.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A00_Doors/A00_Doors.runs/impl_1/Top_Modul.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_sim
