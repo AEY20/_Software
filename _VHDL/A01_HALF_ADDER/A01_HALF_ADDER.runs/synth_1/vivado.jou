@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Aug  5 15:34:52 2020
+# Process ID: 8444
+# Current directory: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A01_HALF_ADDER/A01_HALF_ADDER.runs/synth_1
+# Command line: vivado.exe -log HALF_ADDER.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HALF_ADDER.tcl
+# Log file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A01_HALF_ADDER/A01_HALF_ADDER.runs/synth_1/HALF_ADDER.vds
+# Journal file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A01_HALF_ADDER/A01_HALF_ADDER.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source HALF_ADDER.tcl -notrace
