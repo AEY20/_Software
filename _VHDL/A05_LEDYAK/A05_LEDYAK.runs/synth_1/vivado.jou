@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Aug  6 16:36:50 2020
+# Process ID: 4572
+# Current directory: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A05_LEDYAK/A05_LEDYAK.runs/synth_1
+# Command line: vivado.exe -log ledyak.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ledyak.tcl
+# Log file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A05_LEDYAK/A05_LEDYAK.runs/synth_1/ledyak.vds
+# Journal file: C:/Users/AEY/Google Drive/01_Github/_Software/_VHDL/A05_LEDYAK/A05_LEDYAK.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ledyak.tcl -notrace

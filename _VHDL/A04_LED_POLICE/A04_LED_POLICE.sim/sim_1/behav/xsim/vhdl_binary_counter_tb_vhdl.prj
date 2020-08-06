@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../A04_LED_POLICE.srcs/sources_1/new/led_police.vhd" \
+"../../../../A04_LED_POLICE.srcs/sim_1/new/led_police_tb.vhd" \
+
+# Do not sort compile order
+nosort
