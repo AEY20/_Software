@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../A06_COUNTER.srcs/sources_1/new/simple_counter.vhd" \
+"../../../../A06_COUNTER.srcs/sim_1/new/simple_counter_tb.vhd" \
+
+# Do not sort compile order
+nosort
